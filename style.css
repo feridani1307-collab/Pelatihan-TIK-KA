@@ -1,22 +1,49 @@
-body {
-    background-color: #C8D9E6;
-    font-family: Arial, sans-serif;
-    color: #191970;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Profil</title>
+    <style>
+        body {
+            background-color: #C8D9E6;
+            font-family: Arial, sans-serif;
+            color: #191970;
+        }
 
-    .kartu-profil {
-        width: 300px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: white;
-        border-radius: 15px; 
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+        .kartu-profil {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px; /* sudah diperbaiki */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center; /* dipindahkan ke sini */
+        }
 
-.kartu-profil img {
-    width: 150px;
-    border-radius: 50%;
-}
-    text-align: center;
+        .kartu-profil img {
+            width: 150px;
+            border-radius: 50%;
+        }
 
-   
+        .kartu-profil h2 {
+            margin: 15px 0 5px;
+        }
+
+        .kartu-profil p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kartu-profil">
+        <img src="https://via.placeholder.com/150" alt="Foto Profil">
+        <h2>Nama Kamu</h2>
+        <p>Deskripsi singkat tentang diri kamu.</p>
+        <p>Email: contoh@email.com</p>
+    </div>
+
+</body>
+</html>
