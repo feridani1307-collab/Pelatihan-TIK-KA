@@ -10,5 +10,15 @@ body {
     padding: 20px
     background-color: white;
     border-radius:15 px; 
-    box-shadow: 0 4px 8px rgba (0,0,0,0.1) ;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   
 }
+
+.kartu-profil img {
+    width: 150px;
+ border-radius: 50%;
+}
+.kartu-profil {
+    text-align: center;
+}
+   
